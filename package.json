@@ -1,0 +1,20 @@
+{
+  "name": "phaser-dungeon-crawler",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Phaser dungeon crawler where players complete form cards, manage a stamp meter, navigate red-tape rooms, and survive an auditor boss.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "phaser": "^3.85.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  }
+}
